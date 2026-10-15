@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pengembara Selamat – Kenali Tempat Bahaya di Sekolah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <h1>🦺 Pengembara Selamat</h1>
+    <div class="right"><span id="hud" class="chip"></span><button id="mute" class="btn round" aria-label="Bunyi">🔊</button></div>
+  </header>
+
+  <main>
+    <section id="menu">
+      <p class="sub">Kenali tempat yang boleh mendatangkan bahaya di sekolah!<br>
+      <small>Pengurusan Kehidupan • Pengurusan Diri Tahun 3 • SK 2.5.1</small></p>
+      <div id="acts" class="acts"></div>
+    </section>
+
+    <section id="play" class="hidden">
+      <div class="bar">
+        <button id="back" class="btn">⬅ Menu</button>
+        <strong id="title"></strong>
+      </div>
+      <div class="progress"><i id="prog"></i></div>
+      <div id="stage" class="stage"></div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="card">
+      <div class="big">🎉</div>
+      <h2>Tahniah! Hebat!</h2>
+      <div id="r-stars" class="rstars"></div>
+      <div class="ctl">
+        <button id="r-again" class="btn">🔁 Main lagi</button>
+        <button id="r-menu" class="btn go">Menu ➜</button>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
